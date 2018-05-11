@@ -1,0 +1,293 @@
+{
+  "NAME": "/Users/liuyuan/showcasedev/config/config.local.js",
+  "keys": "/Users/liuyuan/showcasedev/config/config.local.js",
+  "middleware": "/Users/liuyuan/showcasedev/config/config.local.js",
+  "port": "/Users/liuyuan/showcasedev/config/config.local.js",
+  "session": {
+    "maxAge": "/Users/liuyuan/showcasedev/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/liuyuan/showcasedev/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/liuyuan/showcasedev/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/liuyuan/showcasedev/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/liuyuan/showcasedev/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/liuyuan/showcasedev/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/liuyuan/showcasedev/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/liuyuan/showcasedev/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/liuyuan/showcasedev/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/liuyuan/showcasedev/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/liuyuan/showcasedev/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/liuyuan/showcasedev/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/liuyuan/showcasedev/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/liuyuan/showcasedev/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/liuyuan/showcasedev/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/liuyuan/showcasedev/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/liuyuan/showcasedev/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/liuyuan/showcasedev/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/liuyuan/showcasedev/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/liuyuan/showcasedev/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/liuyuan/showcasedev/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/liuyuan/showcasedev/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/liuyuan/showcasedev/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/liuyuan/showcasedev/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/liuyuan/showcasedev/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/liuyuan/showcasedev/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/liuyuan/showcasedev/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/liuyuan/showcasedev/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/liuyuan/showcasedev/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/liuyuan/showcasedev/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/liuyuan/showcasedev/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/liuyuan/showcasedev/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/liuyuan/showcasedev/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "name": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "version": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "description": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "private": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "stop": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "dev": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "debug": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "cov": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "ci": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "autod": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "lint": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "clean": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@types/body-parser": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/jsonwebtoken": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/mongoose": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/morgan": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/underscore": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "fs": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "morgan": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "underscore": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/mocha": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "autod": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "url": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "author": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "license": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "strict": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "depth": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "env": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "level": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+    "logging": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "port": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/liuyuan/showcasedev/node_modules/egg/config/config.default.js"
+}
